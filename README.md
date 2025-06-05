@@ -42,6 +42,16 @@ The application uses Supabase with the following tables:
 - **profiles**: User profiles with admin privileges
 - **software**: Software entries with metadata and download information
 
+# Storage buckets and policies setup
+  
+  1. Creates storage buckets for:
+    - Software files (executables, archives)
+    - Software images (thumbnails, screenshots)
+  
+  2. Sets up policies for:
+    - Upload restrictions by file type and size
+    - Public download access
+
 ## Admin Account Setup
 
 To create an admin account:
